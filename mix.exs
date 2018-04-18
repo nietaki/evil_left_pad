@@ -4,7 +4,7 @@ defmodule EvilLeftPad.MixProject do
   def project do
     [
       app: :evil_left_pad,
-      version: "0.1.1",
+      version: "0.2.0",
       # remember to update CHANGELOG.md before releasing!
       elixir: "~> 1.4",
       package: package(),

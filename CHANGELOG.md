@@ -12,4 +12,9 @@
 
 **Hoplon/evilness status:** HONEST
 
+## v0.2.0
+
+**GitHub changes:** A non-recursive implementation
+
+**Hoplon/evilness status:** CORRUPT - unexpected typespec in the package
 
