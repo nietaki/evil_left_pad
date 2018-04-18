@@ -1,18 +1,11 @@
 defmodule EvilLeftPad do
-  @moduledoc """
-  Documentation for EvilLeftPad.
-  """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> EvilLeftPad.hello
-      :world
-
-  """
-  def hello do
-    :world
+  def left_pad(string, count) do
+    if String.length(string) < count do
+      left_pad(" " <> string, count)
+    else
+      string
+    end
   end
+
 end
