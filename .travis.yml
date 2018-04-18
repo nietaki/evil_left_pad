@@ -10,3 +10,6 @@ otp_release:
   - 20.0
 script:
   - MIX_ENV=test mix test;
+branches:
+  only:
+    - master
