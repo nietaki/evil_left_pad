@@ -2,10 +2,11 @@ defmodule EvilLeftPad do
 
   @doc """
   Pads the beginning of a given string with spaces until it's no
-  longer than `count` characters.
+  longer than `desired_length` characters.
   """
-  def left_pad(string, count) do
-    padding_length = max(count - String.length(string), 0)
+  @spec left_pad(String.t, desired_length :: integer) :: String.t
+  def left_pad(string, desired_length) do
+    padding_length = max(desired_length - String.length(string), 0)
     padding = :binary.copy(" ", padding_length)
     padding <> string
   end
