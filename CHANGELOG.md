@@ -6,3 +6,10 @@
 
 **Hoplon/evilness status:** HONEST
 
+## v0.1.1
+
+**GitHub changes:** Added some tests
+
+**Hoplon/evilness status:** HONEST
+
+
