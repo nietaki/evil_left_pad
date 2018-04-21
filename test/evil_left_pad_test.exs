@@ -19,4 +19,16 @@ defmodule EvilLeftPadTest do
   test "behaves correctly on UTF8 strings" do
     assert "  łóż" == left_pad("łóż", 5)
   end
+
+  test "works with a custom padding string (1 character)" do
+    assert "--abc" == left_pad("abc", 5, "-")
+  end
+
+  test "works with a custom padding string (multiple characters)" do
+    assert "abcabOOO" == left_pad("OOO", 8, "abc")
+  end
+
+  test "works with a UTF8 emoji" do
+    assert "❤❤abc" == left_pad("abc", 5, "❤")
+  end
 end
