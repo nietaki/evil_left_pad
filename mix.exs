@@ -4,8 +4,8 @@ defmodule EvilLeftPad.MixProject do
   def project do
     [
       app: :evil_left_pad,
-      version: "0.2.0",
       # remember to update CHANGELOG.md before releasing!
+      version: "0.3.0",
       elixir: "~> 1.4",
       package: package(),
       start_permanent: Mix.env() == :prod,

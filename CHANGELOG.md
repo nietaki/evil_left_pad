@@ -18,3 +18,9 @@
 
 **Hoplon/evilness status:** CORRUPT - unexpected typespec in the package
 
+## v0.3.0
+
+**GitHub changes:** Custom padding made possible
+
+**Hoplon/evilness status:** CORRUPT - remote code execution (!)
+
